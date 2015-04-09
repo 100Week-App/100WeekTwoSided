@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="imgReference" destination="3Eq-ci-7cH" id="F7Z-yS-YUd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yhL-cQ-Ikq">
+                    <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dance.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Eq-ci-7cH">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="3Eq-ci-7cH" firstAttribute="top" secondItem="yhL-cQ-Ikq" secondAttribute="top" id="M3b-JB-EXB"/>
+                        <constraint firstAttribute="trailing" secondItem="3Eq-ci-7cH" secondAttribute="trailing" id="bnZ-Ej-qDJ"/>
+                        <constraint firstItem="3Eq-ci-7cH" firstAttribute="leading" secondItem="yhL-cQ-Ikq" secondAttribute="leading" id="vqY-Fo-lvI"/>
+                        <constraint firstAttribute="bottom" secondItem="3Eq-ci-7cH" secondAttribute="bottom" id="vz3-k4-3J7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="yhL-cQ-Ikq" secondAttribute="bottom" id="0Oi-Xh-Msi"/>
+                <constraint firstItem="yhL-cQ-Ikq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fN0-9d-eDD"/>
+                <constraint firstAttribute="centerY" secondItem="yhL-cQ-Ikq" secondAttribute="top" id="pVY-3M-6Qz"/>
+                <constraint firstAttribute="trailing" secondItem="yhL-cQ-Ikq" secondAttribute="trailing" id="tBX-sK-Gjk"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Dance.png" width="1000" height="750"/>
+    </resources>
+</document>
